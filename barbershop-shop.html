@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+
+    <header class="main-header">
+    	<nav class="main-nav">
+    		<a charset="main-logo">
+    			<img src="#" alt="Logo Barbershop Borodinski" width="400" height="300">
+    		</a>
+    		<ul>
+    			<li>Информация</li>
+    			<li>Новости</li>
+    			<li>Прайс-лист</li>
+    			<li>Магазин</li>
+    			<li>Контакты</li>
+    		</ul>
+    		<ul>
+    			<li>Вход</li>
+    		</ul>
+    	</nav>
+ 	</header>
+
+ 	<main>
+ 		<h1>Средства для ухода</h1>
+
+        <ul class="bread-crumbs">
+            <li>Главная</li>
+            <li>Магазин</li>
+            <li>Средства для ухода</li>
+        </ul>
+
+        <section class="manufacturers">
+            <h2>Производители</h2>
+
+            <input type="checkbox" name="baxter_of_california"> <span>Baxter of California</span>
+            <input type="checkbox" name="mr_natty"> <span>mr Ntty</span>
+            <input type="checkbox" name="suavecito"> <span>Suavecito</span>
+            <input type="checkbox" name="malin_goetz"> <span>Malin Goetz</span>
+            <input type="checkbox" name="myrrays"> <span>Myrrays</span>
+            <input type="checkbox" name="american_crew"> <span>American Crew</span>
+        </section>
+
+        <section class="groups-goods">
+            <h2>Группы товаров</h2>
+
+            <select name="groups-goods-radio">
+                <option value="1">Бритвенные принадлежности</option>
+                <option value="2">Средства для ухода</option>
+                <option value="3">Аксессуары</option>
+            </select>
+        </section>
+
+        <section class="goods">
+            <ol class="goods-list">
+                <li class="goods-list-item">
+                    <img src="#" width="100" height="50">
+                    <p>Набор для путешествий Baxter of California</p>
+                    <span class="price">2 900 р</span>
+                    <a href="#" class="button goods-price">Купить</a>
+                </li>
+            </ol>
+        </section>
+
+        <nav class="pagination">
+            <a href="#" class="button">1</a>
+            <a href="#" class="button button-active">2</a>
+            <a href="#" class="button">3</a>
+            <a href="#" class="button">4</a>
+        </nav>
+
+    </main>
+
+    <footer class="footer-main">
+        <p class="footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="map.html">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
+      </p>
+
+        <div class="social">
+            <b>Давайте дружить</b>
+            <ul>
+                <li><a class="social-button" href="#">Вконтакте</a></li>
+                <li><a class="social-button" href="#">Фейсбук</a></li>
+                <li><a class="social-button" href="#">Инстаграм</a></li>
+            </ul>
+        </div>
+
+        <div class="copyright">
+            <b>Разработано</b>
+            <a href="htmlacademy.ru" class="button">HTML ACADEMY</a>
+        </div>
+    </footer>
+
+    <section class="modal modal-login">
+        <h2>Личный кабинет</h2>
+        <p>Введите свой логин и пароль</p>
+
+        <span class="modal-close">x</span>
+    </section>
+
+    <section class="modal modal-map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+
+        <span class="modal-close">x</span>
+    </section>
+  </body>
+</html>
